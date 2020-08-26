@@ -3,7 +3,7 @@ A simese-like CNN for diabetic retinopathy detection using binocular fudus image
 
 ## Notes
 1. The dataset is downloaded from the official website of the Kaggle [Diabetic Retinopathy Detection Competition](https://www.kaggle.com/c/diabetic-retinopathy-detection).
-2. By running the file "generate_list", you can generate the lists containing index paths and labels of the fudus images, which are used for training and validation. 
+2. By running the file "generate_list", you can generate the lists containing index paths and labels of the fundus images, which are used for training and validation. 
 
 ## Citation
 Please cite the following paper if you use the code:
