@@ -1,3 +1,32 @@
+# -*- coding: utf-8 -*-
+"""
+========================================================================
+A siamese-like CNN for diabetic retinopathy detection using binocular 
+fudus images as input, Version 1.0
+Copyright(c) 2020 Xianglong Zeng, Haiquan Chen, Yuan Luo, Wenbin Ye
+All Rights Reserved.
+----------------------------------------------------------------------
+Permission to use, copy, or modify this software and its documentation
+for educational and research purposes only and without fee is here
+granted, provided that this copyright notice and the original authors'
+names appear on all copies and supporting documentation. This program
+shall not be used, rewritten, or adapted as the basis of a commercial
+software or hardware product without first obtaining permission of the
+authors. The authors make no representations about the suitability of
+this software for any purpose. It is provided "as is" without express
+or implied warranty.
+----------------------------------------------------------------------
+Please cite the following paper when you use it:
+X. Zeng, H. Chen, Y. Luo and W. Ye, "Automated Diabetic Retinopathy 
+Detection Based on Binocular Siamese-Like Convolutional Neural 
+Network," in IEEE Access, vol. 7, pp. 30744-30753, 2019, 
+doi: 10.1109/ACCESS.2019.2903171.
+----------------------------------------------------------------------
+This file defines the generator to generate the data batches.
+
+@author: Xianglong Zeng
+========================================================================
+"""
 from inception_v3 import preprocess_input
 from keras.preprocessing.image import load_img, img_to_array, array_to_img
 from preprocessing import retinal_img_preprocessing
