@@ -1,5 +1,5 @@
 # Binocular-Siamese-like-Network-for-RDR-Detection
-A simese-like CNN for diabetic retinopathy detection using binocular fudus images as input.
+A siamese-like CNN for diabetic retinopathy detection using binocular fudus images as input.
 
 ## Notes
 1. The dataset is downloaded from the official website of the Kaggle [Diabetic Retinopathy Detection Competition](https://www.kaggle.com/c/diabetic-retinopathy-detection).
