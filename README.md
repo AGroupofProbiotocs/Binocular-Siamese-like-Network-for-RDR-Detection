@@ -3,8 +3,9 @@ A siamese-like CNN for diabetic retinopathy detection using binocular fudus imag
 
 ## Notes
 1. The dataset is downloaded from the official website of the Kaggle [Diabetic Retinopathy Detection Competition](https://www.kaggle.com/c/diabetic-retinopathy-detection).
-2. By running the file "generate_list", you can generate the lists containing index paths and labels of the fundus images, which are used for training and validation. 
-3. The true labels of the test set provided by Kaggle are unknown, thus our work focus more on the performance on the validation set.
+2. The pre-trained weight of the backbone network can be found [here](https://github.com/fchollet/deep-learning-models/releases/tag/v0.2).
+3. By running the file "generate_list", you can generate the lists containing index paths and labels of the fundus images, which are used for training and validation. 
+4. The true labels of the test set provided by Kaggle are unknown, thus our work focus more on the performance on the validation set.
 
 ## Citation
 Please cite the following paper if you use the code:
